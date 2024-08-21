@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#game-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #e20e0e;
+}
+
+#minima {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); /* Star shape */
+}
+
+.obstacle {
+    position: absolute;
+    width: 30px; /* Smaller width */
+    height: 30px; /* Smaller height */
+    background-color: blue;
+}
+
+#score {
+    font-size: 24px;
+    margin: 20px;
+}
+
+#login-container {
+    margin: 20px;
+}

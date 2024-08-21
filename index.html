@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Jump Game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Mini Jump Game</h1>
+    <div id="login-container">
+        <input type="text" id="eth-address" placeholder="Enter Minima address (42 chars)">
+        <button onclick="login()">Login</button>
+    </div>
+    <div id="game-container" style="display: none;">
+        <div id="minima"></div>
+        <!-- Obstacles will be dynamically created here -->
+    </div>
+    <div id="score">Score: 0</div>
+    <script src="game.js"></script>
+</body>
+</html>
